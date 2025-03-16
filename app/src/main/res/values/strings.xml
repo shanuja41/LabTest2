@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LABTest2</string>
+    <string name="launchtext">Delivery Restaurant App</string>
 </resources>
