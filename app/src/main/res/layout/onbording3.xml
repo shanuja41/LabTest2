@@ -32,8 +32,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/onboarding3_desc"
-        android:textAlignment="center"
         android:textColor="@color/theme3"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
         android:textSize="24sp" />
 
     <Button

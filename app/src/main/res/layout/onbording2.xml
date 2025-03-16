@@ -33,6 +33,7 @@
         android:fontFamily="@font/poppins_medium"
         android:text="@string/onboarding1_desc"
         android:textAlignment="center"
+        android:gravity="center_horizontal"
         android:textColor="@color/theme3"
         android:textSize="24sp" />
 
