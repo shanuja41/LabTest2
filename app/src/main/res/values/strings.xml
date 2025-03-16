@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">LABTest2</string>
+
+<!--    launch screen string-->
     <string name="launchtext">Delivery Restaurant App</string>
+    <string name="launchpic_desc">Launch Image</string>
+    <string name="logo_desc">Logo Image</string>
+<!--    onboarding1 screen string-->
+    <string name="onboarding1ttl">Enjoy a World of Flavors</string>
+    <string name="onboarding1_desc">Discover a variety of cuisines and savor delicious dishes from around the globe, delivered right to your doorstep.</string>
+    <string name="onboarding1_btn">Next</string>
+    <string name="onboarding1_pic">onboarding1_pic</string>
+
+<!--    onboarding2 screen string-->
+    <string name="onboarding2ttl">Satisfy Your Cravings</string>
+    <string name="onboarding2_desc">Whether it’s a quick snack or a full meal, get exactly what you’re craving with just a few taps.</string>
+    <string name="onboarding2_pic">onboarding2_pic</string>
+
+<!--    onboarding3 screen string-->
+    <string name="onboarding3ttl">Tasty Meals,Anytime, Anywhere!</string>
+    <string name="onboarding3_desc">Enjoy fresh and flavorful meals whenever and wherever you want, with fast and reliable delivery.</string>
+    <string name="onboarding3_pic">onboarding3_pic</string>
+
+
+
 </resources>

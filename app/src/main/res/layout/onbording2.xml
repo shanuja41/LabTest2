@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/theme1"
+    android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/onboarding1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/onboarding1ttl"
+        android:textColor="@color/theme3"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/onboarding2_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/onboarding2_pic"
+        android:src="@drawable/onboarding2_pic" />
+
+    <TextView
+        android:id="@+id/onboarding2_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/onboarding1_desc"
+        android:textAlignment="center"
+        android:textColor="@color/theme3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/onboarding1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/theme2"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/onboarding1_btn"
+        android:textColor="@color/theme3" />
 </LinearLayout>
