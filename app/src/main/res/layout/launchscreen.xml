@@ -10,14 +10,14 @@
     <ImageView
         android:id="@+id/launchpic"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="446dp"
         android:contentDescription="@string/launchpic_desc"
         android:src="@drawable/launchpic" />
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="114dp"
         android:layout_gravity="center_horizontal"
         android:contentDescription="@string/logo_desc"
         android:src="@drawable/logo" />
@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/launchtext"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="64dp"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/poppins_semibold"
         android:gravity="center"

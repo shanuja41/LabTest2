@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:id="@+id/getstarted"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/theme1"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/launchpic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/launchpic_desc"
+        android:src="@drawable/launchpic" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/logo_desc"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/launchtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/launchtext"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/theme2"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/getstart_btn"
+        android:textColor="@color/theme3" />
 
 </LinearLayout>

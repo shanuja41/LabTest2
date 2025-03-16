@@ -21,6 +21,7 @@
     <string name="onboarding3_desc">Enjoy fresh and flavorful meals whenever and wherever you want, with fast and reliable delivery.</string>
     <string name="onboarding3_pic">onboarding3_pic</string>
 
-
+<!--    getstarted screen string-->
+    <string name="getstart_btn">getstarted</string>
 
 </resources>
