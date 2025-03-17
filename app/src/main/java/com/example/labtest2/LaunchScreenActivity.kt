@@ -1,12 +1,14 @@
 package com.example.labtest2
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import androidx.appcompat.app.AppCompatActivity
+import androidx.activity.ComponentActivity
 
-class LaunchScreenActivity : AppCompatActivity() {
+@SuppressLint("CustomSplashScreen")
+class LaunchScreenActivity : ComponentActivity()  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.launchscreen)
@@ -14,11 +16,11 @@ class LaunchScreenActivity : AppCompatActivity() {
         // Wait for 3 seconds before navigating to the Onboarding screen
         Handler(Looper.getMainLooper()).postDelayed({
 
-//            Log.d("LaunchScreenActivity", "Navigating to OnboardingActivity")
-//            Start Onboarding Activity
             val intent = Intent(this, OnboardingActivity::class.java)
             startActivity(intent)
-            finish() // Optional: to finish the launch screen activity so the user can't go back to it
-        }, 4000) // 4000 milliseconds = 4 seconds
+            finish()
+        }, 4000)
     }
 }
+
+

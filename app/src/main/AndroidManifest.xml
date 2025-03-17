@@ -18,14 +18,21 @@
             </intent-filter>
         </activity>
 
-
-        <!-- Onboarding Screen -->
         <activity
             android:name=".OnboardingActivity"
-            android:exported="true"
-            android:theme="@style/Theme.LABTest2" />
+            android:exported="true"/>
 
+        <activity
+            android:name=".Onboarding2Activity"
+            android:exported="true"/>
 
+        <activity
+            android:name=".Onboarding3Activity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>

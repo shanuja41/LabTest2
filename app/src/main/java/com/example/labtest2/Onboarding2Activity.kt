@@ -5,16 +5,16 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
 
-class OnboardingActivity : ComponentActivity() {
+class Onboarding2Activity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.onboarding1)
+        setContentView(R.layout.onbording2)
 
-        // **Navigate to onboarding2**
-        val onboarding1btn = findViewById<Button>(R.id.onboarding1_btn)
-        onboarding1btn.setOnClickListener {
-            val intent = Intent(this, Onboarding2Activity::class.java)
+        // **Navigate to onboarding3**
+        val onboarding2btn = findViewById<Button>(R.id.onboarding2_btn)
+        onboarding2btn.setOnClickListener {
+            val intent = Intent(this, Onboarding3Activity::class.java)
             startActivity(intent)
             finish()
         }

@@ -38,7 +38,7 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/onboarding1_btn"
+        android:id="@+id/onboarding3_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
