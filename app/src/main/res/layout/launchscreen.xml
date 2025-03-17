@@ -23,7 +23,7 @@
         android:src="@drawable/logo" />
 
     <TextView
-        android:id="@+id/launchtext"
+        android:id="@+id/getstarted_desc"
         android:layout_width="wrap_content"
         android:layout_height="64dp"
         android:layout_gravity="center_horizontal"

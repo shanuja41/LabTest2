@@ -11,10 +11,10 @@ class Onboarding3Activity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.onbording3)
 
-        // **Navigate to loginactivity**
+        // **Navigate to getstarted
         val onboarding3btn = findViewById<Button>(R.id.onboarding3_btn)
         onboarding3btn.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, GetstartedActivity::class.java)
             startActivity(intent)
             finish()
         }
