@@ -5,16 +5,16 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
 
-class GetstartedActivity : ComponentActivity() {
+class SignupActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.getstarted)
+        setContentView(R.layout.signup)
 
-        // **Navigate to login**
-        val getstartedbtn = findViewById<Button>(R.id.getstarted_btn)
-        getstartedbtn.setOnClickListener {
-            val intent = Intent(this, SignupActivity::class.java)
+//         **Navigate to login
+        val signupbtn = findViewById<Button>(R.id.signup_btn)
+        signupbtn.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }

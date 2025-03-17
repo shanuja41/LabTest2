@@ -7,10 +7,6 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme.LABTest2">
-        <activity
-            android:name=".ui.login.LoginActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_login2" />
         <!-- Splash Screen (Launch First) -->
         <activity
             android:name=".LaunchScreenActivity"
@@ -36,6 +32,9 @@
             android:exported="true" />
         <activity
             android:name=".GetstartedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
             android:exported="true" />
     </application>
 
