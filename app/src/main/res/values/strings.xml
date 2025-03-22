@@ -63,4 +63,24 @@
     <string name="pcart_cvc_in">***</string>
     <string name="back_btn">back_btn</string>
     <string name="pcart_btn">Add &amp; Make payment</string>
+
+<!--    editprofile -->
+
+    <string name="eprofile_ttl">Edit Profile</string>
+    <string name="eprofile_pic">Edit Profile_pic</string>
+    <string name="eprofile_btn">Save</string>
+
+<!--    profile details-->
+    <string name="profile_ttl">Profile</string>
+    <string name="profile_name">Shanuja Kanthakumar</string>
+    <string name="profile_personalinfo">Personal Info</string>
+    <string name="profile_address">Address</string>
+    <string name="profile_cart">Cart</string>
+    <string name="profile_orderdetails">Order details</string>
+    <string name="logout">Log Out</string>
+    <string name="next">next</string>
+
+
+
+
 </resources>
