@@ -36,7 +36,31 @@
 
     <string name="signup_btn">Signup</string>
     <string name="signup_desc">Signuplogo</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_enterusername">Enter your username</string>
+    <string name="signup_Email">Email</string>
+    <string name="signup_enteremail">Enter your email</string>
+    <string name="signup_phonenum">Phone number</string>
+    <string name="signup_enterphonenum">Enter your phonenumber</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_enterpassword">Enter your password</string>
 
+<!--    payment successfull-->
 
+    <string name="paymentsuccess_desc">paymentsuccess</string>
+    <string name="paymentsuccess_details">You successfully made a payment</string>
+    <string name="paymentsuccess_details2">enjoy our service!</string>
+<!--    Add payment card-->
 
+    <string name="pcart_ttl">Add card</string>
+    <string name="pcart_name">Card holder name</string>
+    <string name="pcart_name_in">Shanuja kanthakumar</string>
+    <string name="pcart_num">Card Number</string>
+    <string name="pcart_num_in">2113 3333 4444</string>
+    <string name="pcart_date">Expire date</string>
+    <string name="pcart_date_in">mm/yyyy</string>
+    <string name="pcart_cvc">CVC</string>
+    <string name="pcart_cvc_in">***</string>
+    <string name="back_btn">back_btn</string>
+    <string name="pcart_btn">Add &amp; Make payment</string>
 </resources>
