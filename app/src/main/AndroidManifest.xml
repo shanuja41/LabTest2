@@ -36,6 +36,44 @@
         <activity
             android:name=".SignupActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".AddpaymentcartActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddshippingaddressActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddtocartActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".Editprofile"
+            android:exported="true" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PaymentsuccessfulActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".SelectfoodActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".UserprofileActivity"
+            android:exported="true" />
+
+
     </application>
 
 </manifest>
