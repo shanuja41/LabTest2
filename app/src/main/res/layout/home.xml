@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme1">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enterusername"
+        android:textColor="@color/theme3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/l2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/l2"
+        android:layout_width="162dp"
+        android:layout_height="444dp"
+        android:contentDescription="@string/enterpassword"
+        android:src="@drawable/launchpic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/launchpic"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="446dp"-->
+    <!--            android:contentDescription="@string/launchpic_desc"-->
+    <!--            android:src="@drawable/launchpic" />-->
+
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--        android:id="@+id/launchscreen"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@color/theme1"-->
+    <!--        android:orientation="vertical">-->
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/launchpic"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="446dp"-->
+    <!--            android:contentDescription="@string/launchpic_desc"-->
+    <!--            android:src="@drawable/launchpic" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
