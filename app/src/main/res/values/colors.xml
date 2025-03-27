@@ -3,4 +3,10 @@
     <color name="theme1">#8C6BBC</color>
     <color name="theme2">#F4640A</color>
     <color name="theme3">#FFFFFF</color>
+    <color name="theme4">#000000</color>
+    <color name="bg">#E9E9EF</color>
+
+    <color name="btn">#6200EE</color>
+    <color name="red">#9E0505</color>
+
 </resources>

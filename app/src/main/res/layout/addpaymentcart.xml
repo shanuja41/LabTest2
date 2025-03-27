@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.011" />
 
     <EditText
         android:id="@+id/entercardname"
@@ -108,6 +108,6 @@
         android:layout_height="wrap_content"
         android:text="@string/pcart_btn"
         tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="771dp" />
+        tools:layout_editor_absoluteY="700dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

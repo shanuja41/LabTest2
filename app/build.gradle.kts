@@ -5,6 +5,10 @@ plugins {
 }
 
 android {
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
     namespace = "com.example.labtest2"
     compileSdk = 35
 
