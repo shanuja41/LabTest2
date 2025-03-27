@@ -12,7 +12,7 @@ class GetstartedActivity : ComponentActivity() {
         setContentView(R.layout.getstarted)
 
         // **Navigate to login**
-        val getstartedbtn = findViewById<Button>(R.id.getstarted_btn)
+        val getstartedbtn = findViewById<Button>(R.id.makepayment)
         getstartedbtn.setOnClickListener {
             val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)

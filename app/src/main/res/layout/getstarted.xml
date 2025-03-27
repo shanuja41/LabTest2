@@ -34,14 +34,16 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/getstarted_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/makepayment"
+        android:layout_width="192dp"
+        android:layout_height="67dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
+        android:background="@drawable/oval_button"
         android:backgroundTint="@color/theme2"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/getstart_btn"
-        android:textColor="@color/theme3" />
+        android:textColor="@color/theme3"
+        android:textSize="20sp" />
 
 </LinearLayout>
