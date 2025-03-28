@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.ComponentActivity
 
 class AddshippingaddressActivity : ComponentActivity() {
@@ -19,5 +20,13 @@ class AddshippingaddressActivity : ComponentActivity() {
           startActivity(intent)
            finish()
        }
+
+        val addressbtn = findViewById<ImageView>(R.id.addressbtn)
+        addressbtn.setOnClickListener {
+            val intent = Intent(this, AddtocartActivity::class.java)
+            startActivity(intent)
+            finish() // Closes current activity
+        }
+
     }
 }

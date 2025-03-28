@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.ComponentActivity
 
 class AddtocartActivity : ComponentActivity() {
@@ -19,5 +20,15 @@ class AddtocartActivity : ComponentActivity() {
           startActivity(intent)
            finish()
        }
+
+
+
+        val  cartback = findViewById<ImageView>(R.id.cartback)
+        cartback.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+            finish() // Closes current activity
+        }
+
     }
 }

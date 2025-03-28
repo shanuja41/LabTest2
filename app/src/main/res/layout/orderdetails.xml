@@ -1,299 +1,461 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-    <ImageView
-        android:id="@+id/imageView47"
-        android:layout_width="34dp"
-        android:layout_height="36dp"
-        android:contentDescription="@string/back_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018"
-        android:src="@drawable/ic_back" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/orderttl"
-        android:textColor="@color/theme4"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.167"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="352dp"
-        android:layout_height="198dp"
-        android:background="@drawable/boxstyle"
-        android:backgroundTint="@color/bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout15"
-        app:layout_constraintVertical_bias="0.159">
+        android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView50"
-            android:layout_width="111dp"
-            android:layout_height="122dp"
-            android:contentDescription="@string/food"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.064"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.21"
-            android:src="@drawable/food2" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="126dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/theme1"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/trackorder"
-            android:textColor="@color/theme3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.069"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.955" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="138dp"
-            android:layout_height="48dp"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/red"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/cancel"
-            android:textColor="@color/theme3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.933"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.956" />
+            android:id="@+id/scroll_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/back_btn"
+            android:src="@drawable/ic_back" />
 
         <TextView
-            android:id="@+id/textView77"
+            android:id="@+id/textView44"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/orderfood"
+            android:layout_marginLeft="30dp"
+            android:text="@string/orderttl"
             android:textColor="@color/theme4"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.706"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.201" />
+            android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView78"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="136dp"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/totalprice"
-            android:textColor="@color/gold"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.07"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.385" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout14"
+            android:layout_width="352dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/boxstyle"
+            android:backgroundTint="@color/bg">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout16"
-        android:layout_width="359dp"
-        android:layout_height="198dp"
-        android:background="@drawable/boxstyle"
-        android:backgroundTint="@color/bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113">
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="111dp"
+                android:layout_height="122dp"
+                android:contentDescription="@string/food"
+                android:src="@drawable/food2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.21" />
 
-        <ImageView
-            android:id="@+id/imageView48"
-            android:layout_width="111dp"
-            android:layout_height="122dp"
-            android:contentDescription="@string/food"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.064"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.21"
-            android:src="@drawable/food2" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/theme1"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/trackorder"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.069"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.955" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="137dp"
-            android:layout_height="48dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/theme1"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/trackorder"
-            android:textColor="@color/theme3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.067"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView48"
-            app:layout_constraintVertical_bias="0.111" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="138dp"
+                android:layout_height="48dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/red"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/cancel"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.956" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="137dp"
-            android:layout_height="48dp"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/red"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/cancel"
-            android:textColor="@color/theme3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.822"
-            app:layout_constraintStart_toEndOf="@+id/button"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.96" />
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orderfood"
+                android:textColor="@color/theme4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.706"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
 
-        <TextView
-            android:id="@+id/textView64"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/orderfood"
-            android:textColor="@color/theme4"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.706"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.201" />
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="136dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/totalprice"
+                android:textColor="@color/gold"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.385" />
 
-        <TextView
-            android:id="@+id/textView74"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="136dp"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/totalprice"
-            android:textColor="@color/gold"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/imageView48"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.415" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout15"
-        android:layout_width="352dp"
-        android:layout_height="198dp"
-        android:background="@drawable/boxstyle"
-        android:backgroundTint="@color/bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout16"
-        app:layout_constraintVertical_bias="0.074">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout16"
+            android:layout_width="352dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/boxstyle"
+            android:backgroundTint="@color/bg">
 
-        <ImageView
-            android:id="@+id/imageView49"
-            android:layout_width="111dp"
-            android:layout_height="122dp"
-            android:contentDescription="@string/food"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.064"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.21"
-            android:src="@drawable/food2" />
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="111dp"
+                android:layout_height="122dp"
+                android:contentDescription="@string/food"
+                android:src="@drawable/food2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.21" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="129dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/theme1"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/trackorder"
-            android:textColor="@color/theme3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.071"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.986" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="137dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/theme1"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/trackorder"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.067"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView48"
+                app:layout_constraintVertical_bias="0.111" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="130dp"
-            android:layout_height="50dp"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/red"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/cancel"
-            android:textColor="@color/theme3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.932"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.926" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="137dp"
+                android:layout_height="48dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/red"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/cancel"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.822"
+                app:layout_constraintStart_toEndOf="@+id/button"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.96" />
 
-        <TextView
-            android:id="@+id/textView75"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/orderfood"
-            android:textColor="@color/theme4"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.706"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.201" />
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orderfood"
+                android:textColor="@color/theme4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.706"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
 
-        <TextView
-            android:id="@+id/textView76"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="136dp"
-            android:fontFamily="@font/poppins_semibold"
-            android:text="@string/totalprice"
-            android:textColor="@color/gold"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.07"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.421" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="136dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/totalprice"
+                android:textColor="@color/gold"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView48"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.415" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout15"
+            android:layout_width="352dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/boxstyle"
+            android:backgroundTint="@color/bg">
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="111dp"
+                android:layout_height="122dp"
+                android:contentDescription="@string/food"
+                android:src="@drawable/food2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.21" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="129dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/theme1"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/trackorder"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.986" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/red"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/cancel"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.932"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.926" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orderfood"
+                android:textColor="@color/theme4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.706"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="136dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/totalprice"
+                android:textColor="@color/gold"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.421" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout1"
+            android:layout_width="352dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/boxstyle"
+            android:backgroundTint="@color/bg">
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="111dp"
+                android:layout_height="122dp"
+                android:contentDescription="@string/food"
+                android:src="@drawable/food2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.21" />
+
+            <Button
+                android:id="@+id/button100"
+                android:layout_width="129dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/theme1"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/trackorder"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.986" />
+
+            <Button
+                android:id="@+id/button99"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/red"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/cancel"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.932"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.926" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orderfood"
+                android:textColor="@color/theme4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.706"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="136dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/totalprice"
+                android:textColor="@color/gold"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.421" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout95"
+            android:layout_width="352dp"
+            android:layout_height="198dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/boxstyle"
+            android:backgroundTint="@color/bg">
+
+            <ImageView
+                android:id="@+id/imageView94"
+                android:layout_width="111dp"
+                android:layout_height="122dp"
+                android:contentDescription="@string/food"
+                android:src="@drawable/food2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.21" />
+
+            <Button
+                android:id="@+id/button93"
+                android:layout_width="129dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/theme1"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/trackorder"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.986" />
+
+            <Button
+                android:id="@+id/button92"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/oval_button"
+                android:backgroundTint="@color/red"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/cancel"
+                android:textColor="@color/theme3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.932"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.926" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orderfood"
+                android:textColor="@color/theme4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.706"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="136dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/totalprice"
+                android:textColor="@color/gold"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.421" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
