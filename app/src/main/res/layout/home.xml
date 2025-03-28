@@ -387,7 +387,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/cartbtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:contentDescription="@string/food"
@@ -400,7 +400,7 @@
         app:layout_constraintVertical_bias="0.969" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/userbtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:contentDescription="@string/food"
@@ -413,7 +413,7 @@
         app:layout_constraintVertical_bias="0.969" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/homebtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:contentDescription="@string/food"
@@ -426,7 +426,7 @@
         app:layout_constraintVertical_bias="0.969" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/orderbtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:contentDescription="@string/food"

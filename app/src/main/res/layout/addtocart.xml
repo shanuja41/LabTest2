@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,69 +11,228 @@
         android:id="@+id/imageView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_back" />
+        android:contentDescription="@string/back_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        android:src="@drawable/ic_back" />
 
     <TextView
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="53dp" />
-
-    <TextView
-        android:id="@+id/textView65"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="131dp" />
+        android:text="@string/addtocartttl"
+        android:textColor="@color/theme4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintVertical_bias="0.073" />
 
     <TextView
         android:id="@+id/textView66"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="221dp" />
+        android:text="@string/chicken_hotdog"
+        android:textColor="@color/theme4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/chicken_hotdog_price"
+        android:textColor="@color/gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beef_burger"
+        android:textColor="@color/theme4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/beef_burger_price"
+        android:textColor="@color/gold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/count"
+        android:textColor="@color/theme4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/count"
+        android:textColor="@color/theme4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
 
     <TextView
         android:id="@+id/textView67"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="400dp" />
+        android:text="@string/order"
+        android:textColor="@color/theme4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView68"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="400dp" />
-
-    <TextView
-        android:id="@+id/textView63"
-        android:layout_width="74dp"
-        android:layout_height="80dp"
-        android:background="@drawable/box"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="118dp" />
-
-    <TextView
-        android:id="@+id/textView64"
-        android:layout_width="74dp"
-        android:layout_height="80dp"
-        android:background="@drawable/box"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="221dp" />
+        android:layout_marginStart="24dp"
+        android:text="@string/total"
+        android:textColor="@color/theme4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView73"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/placeorder"
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:background="@drawable/oval_button"
+        android:backgroundTint="@color/theme1"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/place_order"
+        android:textColor="@color/theme3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="359dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/bg"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/placeorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67"
+        app:layout_constraintVertical_bias="0.085"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/place_order"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="734dp" />
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/totalprice"
+        android:textColor="@color/gold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="136dp"
+        android:layout_height="130dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/GREY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152">
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/beef_burger"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/food2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout9"
+        android:layout_width="136dp"
+        android:layout_height="130dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/GREY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356">
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/chicken_hotdog"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/food1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

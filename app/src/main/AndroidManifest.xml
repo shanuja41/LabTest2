@@ -73,6 +73,10 @@
             android:name=".UserprofileActivity"
             android:exported="true" />
 
+        <activity
+            android:name=".OrderdetailsActivity"
+            android:exported="true" />
+
 
     </application>
 

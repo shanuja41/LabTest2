@@ -191,7 +191,7 @@
         android:src="@drawable/ic_location" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/shipbtn"
         android:layout_width="145dp"
         android:layout_height="50dp"
         android:background="@drawable/oval_button"

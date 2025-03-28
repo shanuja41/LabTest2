@@ -20,5 +20,27 @@ class HomeActivity : ComponentActivity() {
           startActivity(intent)
            finish()
        }
+
+        val user_btn = findViewById<ImageView>(R.id.userbtn)
+        user_btn.setOnClickListener {
+            val intent = Intent(this, UserprofileActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val orderbtn = findViewById<ImageView>(R.id.orderbtn)
+        orderbtn.setOnClickListener {
+            val intent = Intent(this, OrderdetailsActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val cartbtn = findViewById<ImageView>(R.id.cartbtn)
+        cartbtn.setOnClickListener {
+            val intent = Intent(this, AddtocartActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }

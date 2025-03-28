@@ -11,86 +11,249 @@
         android:id="@+id/imageView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/back_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
         app:srcCompat="@drawable/ic_back" />
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="90dp"
-        android:layout_height="85dp"
-        android:background="@drawable/box"
-        tools:layout_editor_absoluteX="281dp"
-        tools:layout_editor_absoluteY="68dp" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="90dp"
-        android:layout_height="85dp"
-        android:background="@drawable/box"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="68dp" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="90dp"
-        android:layout_height="85dp"
-        android:background="@drawable/box"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="68dp" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="321dp"
-        android:layout_height="87dp"
-        android:background="@drawable/box"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="182dp" />
 
     <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="1dp" />
+        android:text="@string/paymentttl"
+        android:textColor="@color/theme4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/eprofile_btn"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="405dp" />
+        android:id="@+id/confirmorder"
+        android:layout_width="164dp"
+        android:layout_height="58dp"
+        android:background="@drawable/oval_button"
+        android:backgroundTint="@color/theme1"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/confirmorder"
+        android:textColor="@color/theme3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout12"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout13"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout11"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/visa"
+            android:textColor="@color/theme4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="84dp"
+            android:layout_height="67dp"
+            android:contentDescription="@string/visa"
+            app:layout_constraintBottom_toTopOf="@+id/textView46"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/card3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout11"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141">
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/master"
+            android:textColor="@color/theme4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.952" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="79dp"
+            android:layout_height="61dp"
+            android:contentDescription="@string/master"
+            app:layout_constraintBottom_toTopOf="@+id/textView47"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/card1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView45"
+        android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="122dp" />
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/totalprice"
+        android:textColor="@color/gold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout10"
+        android:layout_width="112dp"
+        android:layout_height="104dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141">
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cash"
+            android:textColor="@color/theme4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.941" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="84dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/cash"
+            app:layout_constraintBottom_toTopOf="@+id/textView45"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/card2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout12"
+        android:layout_width="355dp"
+        android:layout_height="78dp"
+        android:background="@drawable/boxstyle"
+        android:backgroundTint="@color/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout13"
+        app:layout_constraintVertical_bias="0.051">
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mastercard"
+            android:textColor="@color/theme4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.101" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mastercardpin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.306"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.728" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="56dp"
+            android:layout_height="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView43"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView48"
+            app:layout_constraintVertical_bias="0.705"
+            android:src="@drawable/card1" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back_btn"
+            android:rotation="90"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.951"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.296"
+            app:srcCompat="@drawable/ic_nav" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView46"
+        android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="126dp" />
-
-    <TextView
-        android:id="@+id/textView47"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="297dp"
-        tools:layout_editor_absoluteY="119dp" />
-
-    <TextView
-        android:id="@+id/textView48"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="190dp" />
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/total"
+        android:textColor="@color/theme4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView42"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

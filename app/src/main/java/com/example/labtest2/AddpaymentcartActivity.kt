@@ -10,12 +10,12 @@ class AddpaymentcartActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.addpaymentcart)
 
-//      // **Navigate to login**
-//       val getstartedbtn = findViewById<Button>(R.id.getstarted_btn)
-//      getstartedbtn.setOnClickListener {
-//           val intent = Intent(this, SignupActivity::class.java)
-//          startActivity(intent)
-//           finish()
-//       }
+      // **Navigate to login**
+       val makepayment = findViewById<Button>(R.id.makepayment)
+        makepayment.setOnClickListener {
+           val intent = Intent(this, PaymentActivity::class.java)
+          startActivity(intent)
+           finish()
+       }
     }
 }

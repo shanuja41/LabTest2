@@ -116,9 +116,37 @@
 
     <string name="beef_burger">Beef Burger</string>
     <string name="beef_burger_price">Rs.1000</string>
+    <string name="beef_burger_desc">
+        Big juicy beef burger with Cheeser ,lettuce,Tomato,Onions and special sauce!</string>
 
     <string name="chicken_hotdog">Chicken Hotdog</string>
     <string name="chicken_hotdog_price">Rs.1800</string>
+
+    <string name="addtocart">Add to cart</string>
+    <string name="addonce">Add Once</string>
+<!--addtocart-->
+    <string name="addtocartttl">2 items in cart</string>
+    <string name="order">Order Instructions</string>
+    <string name="total">Total</string>
+    <string name="totalprice">Rs.1900 </string>
+    <string name="placeorder_btn">Place Order</string>
+    <string name="count">1</string>
+
+<!--payment-->
+    <string name="cash">Cash</string>
+    <string name="visa">Visa</string>
+    <string name="master">Master</string>
+
+    <string name="mastercard">Master Card</string>
+    <string name="mastercardpin">***********123</string>
+    <string name="confirmorder">Confirm Order</string>
+    <string name="paymentttl">Payment</string>
+
+    <string name="orderfood">Beef Burger &amp; Hotdogs</string>
+    <string name="trackorder">Track order</string>
+    <string name="cancel">Cancel</string>
+    <string name="orderttl">Order</string>
+
 
 
 </resources>
