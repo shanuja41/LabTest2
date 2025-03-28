@@ -4,55 +4,188 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout4"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/theme1">
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView27"
-        android:layout_width="0dp"
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/enterusername"
-        android:textColor="@color/theme3"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/l2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="TextView"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="53dp" />
 
     <ImageView
-        android:id="@+id/l2"
-        android:layout_width="162dp"
-        android:layout_height="444dp"
-        android:contentDescription="@string/enterpassword"
-        android:src="@drawable/launchpic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textView27"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/imageView17"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        android:src="@drawable/profile"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="28dp" />
 
+    <SearchView
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:background="@drawable/oval_button"
+        android:backgroundTint="@color/bg"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="115dp" />
 
-    <!--        <ImageView-->
-    <!--            android:id="@+id/launchpic"-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="446dp"-->
-    <!--            android:contentDescription="@string/launchpic_desc"-->
-    <!--            android:src="@drawable/launchpic" />-->
+    <LinearLayout
+        android:layout_width="91dp"
+        android:layout_height="77dp"
+        android:background="@color/theme1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="200dp">
 
+    </LinearLayout>
 
-    <!--    <?xml version="1.0" encoding="utf-8"?>-->
-    <!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--        android:id="@+id/launchscreen"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:background="@color/theme1"-->
-    <!--        android:orientation="vertical">-->
+    <LinearLayout
+        android:layout_width="94dp"
+        android:layout_height="75dp"
+        android:background="@color/theme1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="202dp"/>
 
+    <LinearLayout
+        android:layout_width="89dp"
+        android:layout_height="72dp"
+        android:background="@color/theme1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="200dp"></LinearLayout>
 
-    <!--        <ImageView-->
-    <!--            android:id="@+id/launchpic"-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="446dp"-->
-    <!--            android:contentDescription="@string/launchpic_desc"-->
-    <!--            android:src="@drawable/launchpic" />-->
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="152dp"
+        android:background="@color/theme1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="413dp">
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="156dp"
+        android:layout_height="219dp"
+        android:background="@color/theme1"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="617dp">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="161dp"
+        android:layout_height="215dp"
+        android:background="@color/theme1"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="628dp">
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/shopping_cart"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="856dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="856dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="856dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/memo"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="856dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

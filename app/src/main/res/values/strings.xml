@@ -86,6 +86,18 @@
 
 
     <string name="place_order">Place order</string>
+<!--    shipping address-->
+    <string name="shippingaddress">Shipping Address</string>
+    <string name="home">Home</string>
+    <string name="haddress">No: 8 Sivan North Road Jaffna</string>
+    <string name="campus">Campus</string>
+    <string name="caddress">malabe</string>
+    <string name="grandpahome">Grandpa Home</string>
+    <string name="gaddress">Thirunelveli jaffna</string>
+    <string name="home2">Home 2</string>
+    <string name="h2address">Jaffna road</string>
+    <string name="ship_btn">Apply</string>
+
 
 
 </resources>
