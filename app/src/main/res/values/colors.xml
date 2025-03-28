@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="theme1">#8C6BBC</color>
+    <color name="theme6">#B7A0D3</color>
     <color name="theme2">#F4640A</color>
     <color name="theme3">#FFFFFF</color>
     <color name="theme4">#000000</color>
+    <color name="theme5">#EDABE1</color>
+    <color name="gold">#FFC107</color>
+    <color name="GREY">#DCDADA</color>
     <color name="bg">#E9E9EF</color>
 
     <color name="btn">#6200EE</color>
